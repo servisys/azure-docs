@@ -114,7 +114,7 @@ There are tools available for generating Debian VHDs for Azure, such as the [azu
 9. Deprovision the virtual machine and prepare it for provisioning on Azure and run:
 
     ```console
-    # sudo waagent –force -deprovision
+    # sudo waagent –force -deprovision+user
     # export HISTSIZE=0
     # logout
     ```
